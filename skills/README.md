@@ -17,7 +17,8 @@ This directory will house the source files for our **50 reusable AI coding skill
 | `architecture/` | System design, clean code refactoring, domain-driven design, and design patterns. | 5-6 skills |
 | `automation/` | Developer tooling, code scaffolding, git automation, and maintenance workflows. | 5-6 skills |
 
-**Total Target**: 50 battle-tested skills.
+**Total Target**: 50 battle-tested skills.  
+👉 *See the full list of all 50 planned skills in [SKILL_CATALOG.md](file:///d:/All%20Projects/Skills/docs/SKILL_CATALOG.md).*
 
 ---
 

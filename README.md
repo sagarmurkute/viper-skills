@@ -36,6 +36,7 @@ Viper Skills is designed to be accessible across multiple workflows:
 skills-monorepo/
 ├── docs/                 # Format specifications, schemas, and usage guides
 │   ├── VIPER_FORMAT.md   # Official .viper file format specification
+│   ├── SKILL_CATALOG.md  # Official catalogue of the 50 AI coding skills
 │   └── examples/         # Sample .viper and equivalent SKILL.md files
 ├── skills/               # Source files for the 50 reusable skills
 │   ├── frontend/         # UI components, state management, styling, and web frameworks
