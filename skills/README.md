@@ -21,14 +21,16 @@ This directory will house the source files for our **50 reusable AI coding skill
 
 ---
 
-## 📄 Future Skill File Format
+## 📄 Skill File Formats
 
-Each skill will be housed in its own folder under its respective category:
+Skills in this project are authored and distributed using our **`.viper` format** (see [VIPER_FORMAT.md](file:///d:/All%20Projects/Skills/docs/VIPER_FORMAT.md)).
 
 ```text
 skills/<category>/<skill-name>/
-├── SKILL.md            # Skill instructions with standard YAML frontmatter
-└── examples/           # (Optional) Concrete reference code or prompt fixtures
+├── skill.viper         # Source of truth in .viper format (metadata + instructions)
+├── SKILL.md            # Generated agent-compatible format (for Antigravity/Cursor/Claude)
+└── examples/           # (Optional) Reference code or fixtures
 ```
 
-> **Note**: Skills are not yet generated in this initial setup phase.
+> **Note**: AI coding agents do not natively parse `.viper` files directly. The `.viper` format serves as our distribution, cataloging, and validation format, which compiles into standard `SKILL.md` when installed into agent environments.
+

@@ -34,6 +34,9 @@ Viper Skills is designed to be accessible across multiple workflows:
 
 ```text
 skills-monorepo/
+├── docs/                 # Format specifications, schemas, and usage guides
+│   ├── VIPER_FORMAT.md   # Official .viper file format specification
+│   └── examples/         # Sample .viper and equivalent SKILL.md files
 ├── skills/               # Source files for the 50 reusable skills
 │   ├── frontend/         # UI components, state management, styling, and web frameworks
 │   ├── backend/          # APIs, authentication, business logic, and servers
@@ -44,9 +47,9 @@ skills-monorepo/
 │   ├── architecture/     # System design patterns, refactoring, and code organization
 │   └── automation/       # Tooling, scripting, code generators, and dev workflows
 ├── packages/
-│   └── cli/              # Source code for the future npm CLI tool
+│   └── cli/              # Source code for the future npm CLI tool (local only)
 ├── apps/
-│   └── website/          # Source code for the future browsing and download portal
+│   └── website/          # Source code for the future browsing portal (local only)
 ├── scripts/              # Validation schemas, linters, and build utilities
 ├── tests/                # Automated tests (schema validation, CLI tests, integration)
 ├── CONTRIBUTING.md       # Guidelines for community contributions
@@ -59,7 +62,7 @@ skills-monorepo/
 ## 🗺️ Project Phases
 
 - [x] **Phase 1: Project Foundation** — Monorepo layout, documentation, category taxonomy, and contribution guidelines.
-- [ ] **Phase 2: Skill Specifications & Schema** — Standardized metadata schema (`SKILL.md` frontmatter, validation rules).
+- [x] **Phase 2: Skill Specifications & Schema** — Standardized `.viper` format, validation rules, and agent-compatible conversion.
 - [ ] **Phase 3: Core Skills Library** — Authoring and validating the 50 specialized AI coding skills.
 - [ ] **Phase 4: CLI Development** — Building the npm package for skill discovery and local installation.
 - [ ] **Phase 5: Web Platform** — Building the responsive web application for searching and downloading skills.
